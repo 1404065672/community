@@ -13,4 +13,10 @@ public interface DiscussPostMapper {
 
     //@Param注解用于给参数取别名
     int selectDiscussPostRows(@Param("userId") int userId);
+
+    int insertDiscussPost(DiscussPost discussPost);
+
+    DiscussPost selectDiscussPostById(int id);
+
+    int updateCommentCount(int id, int commentCount);
 }

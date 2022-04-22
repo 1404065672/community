@@ -10,6 +10,10 @@ import javax.annotation.PreDestroy;
 @Service
 public class AlphaService {
 
+    public void doSomething(){
+
+    }
+
     @Autowired
     private AlphaDao alphaDao;
 
